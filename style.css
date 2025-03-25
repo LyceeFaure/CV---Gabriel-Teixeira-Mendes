@@ -1,0 +1,105 @@
+body {
+  background: #f0f8ff; /* Bleu très clair, presque blanc */
+  width: 950px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  padding: 20px 40px;
+  line-height: 1.6;
+  color: #333; /* Texte gris foncé pour assurer une bonne lisibilité */
+}
+
+h1, h2, h3 {
+  font-family: 'Montserrat', sans-serif; /* Police audacieuse pour les titres */
+}
+
+h1 {
+  font-size: 32px;
+  color: #003366; /* Bleu foncé pour les titres principaux */
+  margin-top: 0;
+}
+
+h2 {
+  font-size: 28px;
+  color: #00509E; /* Un bleu un peu plus clair pour les sous-titres */
+  margin-top: 30px;
+}
+
+h3 {
+  font-size: 22px;
+  color: #007BFF; /* Bleu vif pour les sous-sections */
+}
+
+a {
+  color: #1E90FF; /* Bleu clair pour les liens */
+  text-decoration: none;
+}
+
+a:hover {
+  color: #00509E; /* Bleu moyen pour les liens au survol */
+  text-decoration: underline;
+}
+
+/* Liens d'emails et autres éléments interactifs */
+#email {
+  font-weight: bold;
+  color: #1E90FF; /* Identique au bleu pour les emails */
+}
+
+#email:hover {
+  color: #00509E; /* Même couleur que les liens lors du survol */
+}
+
+/* Amélioration des listes */
+ul {
+  list-style: square inside; /* Puces carrées */
+  margin: 10px 0;
+}
+
+ul li {
+  margin-bottom: 8px;
+}
+
+/* Images (photo de profil) */
+#photo {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  border: 4px solid #fff; /* Bordure blanche autour de l'image */
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Section principale */
+section {
+  background-color: #ffffff; /* Fond blanc pour les sections */
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+}
+
+/* Pied de page */
+footer {
+  background-color: #003366; /* Bleu foncé pour le footer */
+  color: #fff; /* Texte blanc */
+  padding: 20px;
+  text-align: center;
+  margin-top: 40px;
+  border-radius: 8px;
+}
+
+footer h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+footer p {
+  font-size: 16px;
+}
+
+footer a {
+  color: #fff;
+  text-decoration: underline;
+}
+
+footer a:hover {
+  color: #1E90FF; /* Bleu clair pour le lien au survol */
+}
